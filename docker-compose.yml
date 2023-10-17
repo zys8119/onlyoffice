@@ -32,6 +32,7 @@ services:
       - '443'
     volumes:
       - ./fonts:/usr/share/fonts/truetype/custom
+      - ./local.json:/etc/onlyoffice/documentserver/local.json
   nginx:
     container_name: nginx-server
     image: nginx
