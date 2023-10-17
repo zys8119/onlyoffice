@@ -31,8 +31,7 @@ services:
       - '80'
       - '443'
     volumes:
-      - document_data:/var/www/onlyoffice/Data
-      - document_log:/var/log/onlyoffice
+      - ./fonts:/usr/share/fonts/truetype/custom
   nginx:
     container_name: nginx-server
     image: nginx
