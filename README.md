@@ -1,6 +1,5 @@
-# onlyoffice
+# onlyoffice 相关搭建注意事项
 
-onlyoffice 相关搭建事项
 
 ### owncloud默认账号密码
 
