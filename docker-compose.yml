@@ -27,8 +27,6 @@ services:
       - onlyoffice
     environment:
       - JWT_SECRET=secret
-    ports:
-      - "8080:80"
     expose:
       - "80"
       - "443"
