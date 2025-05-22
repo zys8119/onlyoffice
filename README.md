@@ -55,3 +55,8 @@ For Docker: 对于Docker：
 ```shell
 supervisorctl restart all
 ```
+
+### welcome 页面可开启演示例子
+
+[演示地址](http://localhost:8080/welcome/)
+

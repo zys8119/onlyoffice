@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   app:
     container_name: app-server
@@ -7,8 +7,8 @@ services:
     tty: true
     restart: always
     expose:
-      - '80'
-      - '8080'
+      - "80"
+      - "8080"
     networks:
       - onlyoffice
     environment:
@@ -27,9 +27,11 @@ services:
       - onlyoffice
     environment:
       - JWT_SECRET=secret
+    ports:
+      - "8080:80"
     expose:
-      - '80'
-      - '443'
+      - "80"
+      - "443"
     volumes:
       - ./fonts:/usr/share/fonts/truetype/custom
       - ./local.json:/etc/onlyoffice/documentserver/local.json
@@ -48,7 +50,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
 networks:
   onlyoffice:
-    driver: 'bridge'
+    driver: "bridge"
 volumes:
   document_data:
   document_log:
