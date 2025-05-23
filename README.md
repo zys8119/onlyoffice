@@ -60,3 +60,9 @@ supervisorctl restart all
 
 [演示地址](http://localhost:8080/welcome/)
 
+
+### 字体加载脚本
+
+```
+  documentserver-generate-allfonts.sh
+```
