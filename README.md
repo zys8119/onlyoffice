@@ -71,3 +71,4 @@ supervisorctl restart all
 * 不需要云的时候local.json 为 控对象 {}
 * docker-compose1.yml 带有云服务, 如遇到错误请按照最新的云教程，[地址](https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud)
 * docker-compose.yml 仅服务
+* [社区版本docker安装](https://helpcenter.onlyoffice.com/docs/installation/docs-community-install-docker-arm64.aspx)
