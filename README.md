@@ -66,3 +66,8 @@ supervisorctl restart all
 ```
   documentserver-generate-allfonts.sh
 ```
+### 注意项
+
+* 不需要云的时候local.json 为 控对象 {}
+* docker-compose1.yml 带有云服务
+* docker-compose.yml 仅服务
